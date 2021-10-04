@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import "./Services.css"
 
 const Services = () => {
     const [services, setServices] = useState([])
@@ -14,9 +15,10 @@ const Services = () => {
     return (
         <div>
             <Header></Header>
-            <div>
+            <h1 className="m-5">Our Services</h1>
+            <div className="service-card-container">
                 {
-                    services.map(service => <div className="card-container">
+                    services.map(service => <div>
                         <Row xs={1} md={2} className="g-4 ">
 
                             <Col>

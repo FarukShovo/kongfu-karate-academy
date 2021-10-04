@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div>
             <Header></Header>
-            <h1></h1>
+
             <img src="https://image.shutterstock.com/image-photo/master-black-belt-taekwondo-karate-260nw-1850892892.jpg" alt="" />
 
             <h4>GA:</h4>

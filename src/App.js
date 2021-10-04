@@ -4,8 +4,8 @@ import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Services from './components/Services/Services';
 import About from './components/About/About';
-import Contact from './components/Instructor/Instructor';
 import Instructor from './components/Instructor/Instructor';
+
 
 function App() {
   return (

@@ -19,21 +19,21 @@ const Home = () => {
             <div className="card-container">
                 {
                     services.map(service => <div>
-                        <Row xs={1} md={2} className="g-2 content-center">
-                            <Col>
-                                <Card className="card">
-                                    <Card.Img variant="top" src={service.img} />
-                                    <Card.Body>
-                                        <Card.Title>Course Name: {service.courseName}</Card.Title>
-                                        <Card.Text>
-                                            <p>Course Duration: {service.courseDuration}
-                                            </p>
-                                            <p>Course Fee: {service.courseFee}</p>
-                                            <p>Time: {service.time}</p>
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                            </Col>
+                        <Row xs={1} md={3} className="g-2 content-center">
+
+                            <Card className="card w-50">
+                                <Card.Img variant="top" src={service.img} />
+                                <Card.Body>
+                                    <Card.Title>Course Name: {service.courseName}</Card.Title>
+                                    <Card.Text>
+                                        <p>Course Duration: {service.courseDuration}
+                                        </p>
+                                        <p>Course Fee: {service.courseFee}</p>
+                                        <p>Time: {service.time}</p>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+
                         </Row>
                     </div>)
                 }

@@ -17,7 +17,9 @@ const Header = () => {
 
 
                     </div>
-                    <div className="col-md-6"></div>
+                    <div className="col-md-6">
+                        <h1 className="title">KUNGFU KARATE ACADEMY</h1>
+                    </div>
                 </div>
             </div>
         </div>
