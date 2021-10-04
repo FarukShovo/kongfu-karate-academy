@@ -1,7 +1,7 @@
 # KUNGFU KARATE ACADEMY
 
 
-The live link of this project : [visite the site](https://github.com/facebook/create-react-app).
+The live link of this project : [visite the site](https://kongfu-academy-assignment-9.netlify.app/).
 
 ## About this website
 
