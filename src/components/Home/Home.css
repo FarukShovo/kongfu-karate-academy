@@ -1,0 +1,18 @@
+.card{
+    border: 2px solid burlywood;
+    height: 550px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: darkgrey;
+}
+.card:hover{
+    background-color: wheat;
+    color: rgb(59, 3, 3);
+}
+
+ .card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+} 
